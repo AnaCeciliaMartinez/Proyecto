@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="./img/logo.jpg" alt="logotipo">
+            </div>
+            <ul class="navText">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="">Productos</a></li>
+                <li><a href="#footer">Contacto</a></li>
+                <li><a href="">Resgistrarse/Mi Cuenta</a></li>
+                <li><a href=""><img src="./img/carrito-de-compras.png" alt="carrito de compras"></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="mainText">
+        <h1>Crear Usuario</h1>
+        <section>
+            <form action="#" method="post">
+                <label for="name">
+                <span> Nombre y Apellido</span>
+                <input type="text" id="name" required>
+                </label>
+
+                <label for="nacimiento">
+                <span> Fecha de nacimiento</span>
+                <input type="date" id="nacimiento" required>
+                </label>
+
+                <label for="email">
+                <span> Email</span>
+                <input type="email" id="email" required>
+                </label>
+
+                <label for="pass">
+                    <span>Ingresá tu contraseña</span>
+                    <input type="pass" id="password" required>
+                </label>
+
+                <div>
+                    <p>¿Te dedicás a la encuadernación?</p>
+                    <label for="si">Si</label>
+                    <input type="radio" name="encuaderna" id="si" value="si">
+                    <label for="no">No</label>
+                    <input type="radio" name="encuaderna" id="no" value="no">
+                    <label for="si">Como hobbie</label>
+                    <input type="radio" name="encuaderna" id="hobbie" value="hobbie">
+                </div>
+
+                <div>
+                    <label for="news">Tildá el casillero si querés estar al tanto de nuestras novedades</label>
+                    <input type="checkbox" id="news" name="news" value="1">
+                </div>
+            </form>
+        </section>
+        <section class="video">
+            <div>
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/9aQ5Id1XFYY" title="cuadernos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer"> 
+        <a href="https://www.instagram.com/yvareis_damish/"><img src="./img/instagram.png" alt="">Instagram</a>
+        <img src="./img/correo-electronico-vacio.png" alt="email">yvacuadernos@gmail.com
+    </footer>
+</body>
+</html>

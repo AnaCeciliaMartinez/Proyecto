@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**
+font-family: 'Aboreto', cursive;
+font-family: 'DynaPuff', cursive;
+**/
+
+header, footer{
+    background-color: rgb(255, 179, 179);
+}
+
+body{
+    background-color: rgb(255, 233, 174);
+}
+
+.navText li a, footer a{
+    color: black;
+    font-family: 'Aboreto', cursive;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navText li a:hover{
+    color: blue;
+    font-size: 20px;
+}
+
+.mainText div a, .mainText h2{
+    color: rgb(51, 60, 131);
+    font-size: 2rem;
+    font-family: 'Aboreto', cursive;
+}
+
+main h1{
+    color: rgba(39, 39, 88, 0.788);
+    font-size: 3rem;
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+}
+
+.listaCuadernos li a, .mainText div a{
+    text-decoration: none;
+}
+
+.parrafo div p, .parrafo figure figcaption{
+    font-weight: 900;
+    font-family: 'Aboreto', cursive;
+}
+
+.mainText section form{
+    font-weight: 900;
+    font-family: 'Aboreto', cursive;
+}
+
+.portada{
+    width: 100vw;
+    height: 50vh;
+}
+
+.portada img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.mainText div{
+    width: 50%;
+    height: 50%;
+    }
+
+.mainText div img{
+    width: 25%;
+    height: 25%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.mainText{
+    border-width: 20px;
+    border-style: none;
+}
