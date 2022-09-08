@@ -9,6 +9,41 @@ font-family: 'Aboreto', cursive;
 font-family: 'DynaPuff', cursive;
 **/
 
+header{
+    width: 100%;
+    height: 150px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.navText{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 header, footer{
     background-color: rgb(255, 179, 179);
 }
@@ -17,10 +52,13 @@ body{
     background-color: rgb(255, 233, 174);
 }
 
+.navText li{
+    list-style: none;
+}
+
 .navText li a, footer a{
     color: black;
     font-family: 'Aboreto', cursive;
-    list-style: none;
     text-decoration: none;
 }
 
@@ -29,6 +67,10 @@ body{
     font-size: 20px;
 }
 
+.mainText div a:hover{
+    color: blue;
+    font-size: 30px;
+}
 .mainText div a, .mainText h2{
     color: rgb(51, 60, 131);
     font-size: 2rem;
